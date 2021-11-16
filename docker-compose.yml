@@ -3,6 +3,11 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    imageL node-web-app
+    container_name: node-web-app
     networks:
       - app-network
   
