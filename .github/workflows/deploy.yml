@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.POST }}
           script: |
-            cd TestRepo
+            cd cmsc389T-web-template
             git pull
 
 
