@@ -6,7 +6,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    imageL node-web-app
+    image: node-web-app
     container_name: node-web-app
     networks:
       - app-network
